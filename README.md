@@ -32,7 +32,7 @@ I can CREATE a username. ####2#### (#COMPLETE, Barbara)
     - Effort Rating: 2
     
 
-I can CREATE a quiz with questions. ###3###
+I can CREATE a quiz with questions. ###3### (COMPLETE, Lauren)
     - one form input, a title for the quiz.
     - Dropdown to assign a category
     - Assigned to current user

@@ -1,6 +1,23 @@
 class QuizzesController < ApplicationController
     def index
     quizzes = Quiz.all
-    render json:quizzes
+    render json: quizzes
     end
+
+    def create
+    user = User.find(params[:user_id])
+    quiz = Quiz.create(title: params[:title], url: params[:url], category_id: params[:category], user_id: quiz_params[:user_id])
+    if quiz.save
+        render json: quiz
+    else
+        render json: quiz.errors.full_messages
+    end
+    end
+
+    private
+
+    def quiz_params
+        params.require(:quiz).permit(:user_id)
+    end
+
 end
