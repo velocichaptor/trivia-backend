@@ -25,11 +25,12 @@ Things you may want to cover:
 
 As a User...
 
-I can CREATE a username. ####2####
+I can CREATE a username. ####2#### (#COMPLETE, Barbara)
     - one form input, one submit button
     - POST request to server to create that user
     - In controller, CREATE action, validation of name having to exist. 
     - Effort Rating: 2
+    
 
 I can CREATE a quiz with questions. ###3###
     - one form input, a title for the quiz.
@@ -44,7 +45,7 @@ I can CREATE a question for the quiz. ###3###
    - input for imageUrl
    - Effort Rating: 3
 
-I can READ to see the categories of quizzes available. ###1###
+I can READ to see the categories of quizzes available. ###1###(done,Barbara)
     - Dropdown for category
     - Effort Rating: 1
 
