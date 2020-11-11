@@ -32,7 +32,7 @@ I can CREATE a username. ####2#### (#COMPLETE, Barbara)
     - Effort Rating: 2
     
 
-I can CREATE a quiz with questions. ###3###
+I can CREATE a quiz with questions. ###3### (COMPLETE, Lauren)
     - one form input, a title for the quiz.
     - Dropdown to assign a category
     - Assigned to current user
@@ -81,7 +81,7 @@ I can READ to see if I have a correct answer. ###1###
     - If correct answer chosen, answer turns green.
     - Effort Rating: 1
 
-I can READ to see all the quizzes I have created. ###2###
+I can READ to see all the quizzes I have created. ###2### (Completed Lauren)
     - Button to fetch the information
     - Table of quizzes created displayed
     - Effort Rating: 2
