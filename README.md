@@ -81,7 +81,7 @@ I can READ to see if I have a correct answer. ###1###
     - If correct answer chosen, answer turns green.
     - Effort Rating: 1
 
-I can READ to see all the quizzes I have created. ###2###
+I can READ to see all the quizzes I have created. ###2### (Completed Lauren)
     - Button to fetch the information
     - Table of quizzes created displayed
     - Effort Rating: 2
