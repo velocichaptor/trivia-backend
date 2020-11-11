@@ -39,7 +39,7 @@ I can CREATE a quiz with questions. ###3### (COMPLETE, Lauren)
     - Effort Rating: 3
  
 
-I can CREATE a question for the quiz. ###3###
+I can CREATE a question for the quiz. ###3### (COMPLETE, Jake)
    - Each question is 5 inputs - one ask, 4 answers
    - Dropdown to assign it to quiz
    - input for imageUrl
