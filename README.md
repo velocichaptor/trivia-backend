@@ -49,7 +49,7 @@ I can READ to see the categories of quizzes available. ###1###(done,Barbara)
     - Dropdown for category
     - Effort Rating: 1
 
-I can READ to select a quiz to take. ###5###
+I can READ to select a quiz to take. ###5### (Barbara)
     - Dropdown for quizzes
     - button to submit choice of quiz
     - Choice is loaded to the DOM to be taken
@@ -98,7 +98,7 @@ I can UPDATE my questions. ###3###
     - edit fields, resubmit
     - Effort Rating: 3
 
-I can DELETE my quizzes. ###2###
+I can DELETE my quizzes. ###2### (Lauren)
     - button to DELETE the quiz away
     - removed from front end and back end
     - Effort Rating: 2

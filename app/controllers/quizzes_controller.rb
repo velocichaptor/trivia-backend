@@ -1,13 +1,8 @@
 class QuizzesController < ApplicationController
 
     def index
-<<<<<<< HEAD
         quizzes = Quiz.all
         render json:quizzes, include: :questions 
-=======
-    quizzes = Quiz.all
-    render json: quizzes
->>>>>>> origin/quizstart
     end
 
     def create
