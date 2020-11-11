@@ -20,6 +20,12 @@ class QuizzesController < ApplicationController
     render json: quiz
     end
 
+    def destroy
+    quiz = Quiz.find(params[:id])
+    quiz.destroy
+    render json: quiz
+    end
+
     private
 
     def quiz_params
