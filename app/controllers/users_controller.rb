@@ -6,11 +6,11 @@ class UsersController < ApplicationController
     end
 
     def create 
-            user = User.new(user_params)
+            user = User.find_or_create_by(name: user_params[:name])
         if user.save 
             render json: user 
         else 
-            render json: {error: "name is already taken"}, status: 403
+            render json: {error: "fill out name to save"}, status: 403
         end 
     end 
 
