@@ -98,7 +98,7 @@ I can UPDATE my questions. ###3###
     - edit fields, resubmit
     - Effort Rating: 3
 
-I can DELETE my quizzes. ###2### (Lauren)
+I can DELETE my quizzes. ###2### (COMPLETED Lauren)
     - button to DELETE the quiz away
     - removed from front end and back end
     - Effort Rating: 2
