@@ -9,7 +9,7 @@ class QuizzesController < ApplicationController
     user = User.find(params[:user_id])
     quiz = Quiz.create(title: params[:title], url: params[:url], category_id: params[:category], user_id: quiz_params[:user_id])
     if quiz.save
-        render json: quiz
+        render json: quiz, include: :questions 
     else
         render json: quiz.errors.full_messages
     end
